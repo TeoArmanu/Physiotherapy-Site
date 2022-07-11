@@ -1,0 +1,799 @@
+.custom_nav{
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+    background-color: #39c0c8;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.btn_cta{
+    background-color: #6c47ff;
+    color: aliceblue;
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav .navbar-nav li a{
+    color: #39c0c8;
+}
+
+.main-banner{
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgba(8, 8, 8, 0.2);   
+}
+
+.about-banner, .services-banner{
+    min-height: 60vh;
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.mask{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: #39c1c8d4;
+}
+
+.mask h2{
+    color: aliceblue;
+}
+
+.main-banner-content{
+    padding-top: 250px;
+}
+
+.about-banner-content, .services-banner-content{
+    padding-top: 180px;
+}
+
+.main-banner-content h2{
+    font-size: 40px;
+}
+
+.about-banner-content h2, .services-banner-content h2{
+    font-size: 80px;
+}
+
+.main-banner-content p{
+    font-size: 30px;
+}
+
+.banner-button{
+    background-color: #6c47ff;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.why, .select-pain, .step, .reviews-slider{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.why-title, .benefits-title {
+    font-size: 50px;
+    color: #6c47ff;
+    font-weight: 700;
+}
+
+.text-holder p, .why-list{
+    font-size: 20px;
+}
+
+
+.benefits{
+    padding: 0;
+}
+
+
+
+
+
+
+.select-pain{
+    background-color: #39c0c8;
+}
+
+.select-pain-title h2{
+    font-size: 50px;
+    color: #6c47ff;
+    font-weight: 700;
+}
+
+.select-pain-text p{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.select-pain-chart{
+    margin: 20px;
+    padding: 30px 330px 30px 330px;
+}
+
+
+.select-pain-media{
+    position: relative;
+   
+}
+
+.select-img{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.select-pain-dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6c47ff;
+    position: absolute;
+}
+
+.select-pain-dot:hover  .dot-text{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.dot-text{
+    position: absolute;
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: 2px solid #6c47ff ;
+    padding: 10px;
+    margin-top: 35px;
+    text-align: center;
+    bottom: 10;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+
+
+.head-and-neck{
+    top: 21%;
+    left: 44%;
+}
+
+.shoulder{
+    top: 25%;
+    left: 55%;
+}
+
+.elbow{
+    top: 28%;
+    left: 25%;
+}
+
+.wrist{
+    top: 23%;
+    left: 86%;
+}
+
+.hips{
+    top: 50%;
+    left: 40%;
+}
+
+.back{
+    top: 40%;
+    left: 50%;
+}
+
+.knee{
+    top: 73%;
+    left: 43%;
+}
+
+.ankle{
+    top: 94%;
+    left: 53%;
+}
+
+
+
+.step-title h2{
+    font-size: 50px;
+    color: #6c47ff;
+    font-weight: 700;
+}
+
+
+.step-box{
+    width: 130px;
+    height: 130px;
+    color: #39c0c8;
+    border-radius: 50%;
+    border: 5px solid #39c0c8;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+ 
+
+.step-box h3{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.step p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+
+.step-link{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 7px;
+    height: 300px;
+    background-color: #39c0c8;
+}
+
+
+
+.reviews-slider{
+    background-color: #39c0c8;
+    margin: 0;
+    padding: 40px;
+}
+
+.reviews-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.reviews-title h2{
+    font-size: 50px;
+    color: #017aff;
+    font-weight: 700;
+}
+
+
+
+.carousel-item{
+    padding-bottom: 30px;
+}
+
+
+
+.review-card{
+    border-radius: 20px;
+    border: 3px solid #6c47ff;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.review-card-body{
+    padding: 15px;
+    text-align: center;
+}
+
+.review-card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.review-card-text{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.main-footer{
+    padding: 20px;
+}
+
+.logo-footer{
+    width: 200px;
+    height: 200px;
+}
+
+.footer-menu{
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+}
+
+.footer-menu h3{
+    color: #39c0c8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-menu ul{
+    list-style-type: none;
+    display: block;
+    justify-content: start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+.footer-menu ul li{
+    padding-bottom: 15px;
+}
+
+.footer-menu ul a{
+    text-decoration: none;
+    color: #6c47ff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.footer-menu ul a:hover{
+    color: #9f89fa;
+}
+
+.footer-contact{
+    margin: 0;
+    padding: 0;
+    justify-content: start;
+}
+
+
+.footer-contact h3{
+    color: #39c0c8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-contact p{
+    color: #6c47ff;
+    font-weight: 600;
+}
+
+.footer-contact .social-icons{
+    list-style-type: none;
+  }
+
+  .footer-contact .social-icons .icon{
+      display: inline-block;
+  }
+
+  .footer-contact .social-icons .icon a{
+      padding-right: 10px;
+      color: #6c47ff;
+      cursor: pointer;
+  }
+
+
+  .footer-contact .social-icons .icon a:hover{
+    color: #9f89fa;
+  }
+
+
+
+
+.modal-header, .modal-button{
+    background-color: #39c0c8;
+    color: #6c47ff;
+}
+
+th{
+    color: #6c47ff;
+    padding: 10px;
+}
+
+td{
+    color: black;
+}
+
+
+.copy{
+    background-color: #39c0c8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.copy p{
+    margin: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+.mission{
+    margin: 0;
+    padding: 0;
+}
+
+.about-title{
+   padding: 0;
+   margin: 0;
+}
+
+.about-title h2{
+    font-size: 80px;
+}
+
+.about-title p{
+   font-size: 50px;
+}
+
+.line{
+    width: 550px;
+    height: 15px;
+    background-color: #39c0c8;
+}
+
+
+
+.mission-text{
+    margin-top: 400px;
+}
+
+.proof-text{
+    padding: 20px;
+}
+
+.mission-text p, .proof-text p, .clients-text p{
+    font-size: 25px;
+}
+
+
+.proof-img-after{
+    display: none;
+}
+
+
+.about-gallery{
+    padding: 20px;
+    background-color: #39c0c8;
+}
+
+.service-card{
+    background-color: #39c0c8;
+}
+
+.service-card-body{
+    padding: 15px;
+    text-align: center;
+}
+
+
+.service-img{
+    position: relative;
+}
+
+
+.btn-service{
+    background-color: #6c47ff;
+    color: aliceblue;
+}
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+    .main-banner{
+        min-height: 60vh;
+    }
+
+    .about-banner, .services-banner{
+        min-height: 40vh;
+    }
+
+    .main-banner-content, .about-banner-content, .services-banner-content{
+        padding-top: 130px;
+    }
+
+    .about-banner-content h2, .services-banner-content h2{
+        font-size: 58px;
+    }
+
+    .mission-text{
+        margin-top: 300px;
+    }
+
+    .mission-text p, .proof-text p, .clients-text p{
+        font-size: 22px;
+    }
+
+    .select-pain-chart{
+        margin: 20px;
+        padding: 25px 250px 25px 250px;
+    }
+    
+    
+    .select-pain-dot{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .proof-img-after{
+        display: block;
+    }
+
+    .proof-img{
+        display: none;
+    }
+
+    
+    .select-pain-chart{
+        margin: 20px;
+        padding: 25px 150px 25px 150px;
+    }
+    
+    
+    .select-pain-dot{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .about-title h2{
+        font-size: 60px;
+    }
+    
+    .about-title p{
+       font-size: 40px;
+    }
+    
+    .line{
+        width: 400px;
+        height: 15px;
+        background-color: #39c0c8;
+    }
+
+
+    .mission-text{
+        margin-top: 100px;
+    }
+
+    .mission-text p, .proof-text p, .clients-text p{
+        font-size: 20px;
+    }
+
+    .proof-img-after{
+        padding: 10px;
+    }
+
+    .select-pain-chart{
+        margin: 20px;
+        padding: 25px 90px 25px 90px;
+    }
+    
+    
+    .select-pain-dot{
+        width: 17px;
+        height: 17px;
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    .review-card-title{
+        font-size: 15px;
+    }
+
+    .review-card-text{
+        font-size: 10px;
+    }
+
+    .main-banner{
+        min-height: 40vh;
+    }
+
+    .about-banner, .services-banner{
+        min-height: 15vh;
+    }
+
+    .main-banner-content, .about-banner-content, .services-banner-content{
+        padding-top: 50px;
+    }
+
+    .main-banner-content h2, .about-banner-content h2, .services-banner-content h2{
+        font-size: 25px;
+    }
+
+    
+    .main-banner-content p{
+        font-size: 15px;
+    }
+
+    .why-title , .benefits-title, .reviews-title h2{
+        font-size: 25px;
+    }
+    
+    .text-holder p{
+        font-size: 15px;
+    }
+
+    .select-pain-title h2{
+        font-size: 25px;
+    }
+    
+    .select-pain-text p{
+        font-size: 15px;
+    }
+
+    .step-title h2{
+        font-size: 25px;
+    }
+
+    
+   .step-box{
+    width: 130px;
+    height: 130px;
+   } 
+
+   .step-box h3{
+    font-size: 50px;
+   }
+
+    .step p{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+
+    .step-link{
+        width: 5px;
+        height: 150px;
+       
+    }
+
+    .footer-menu h3{
+        padding-bottom: 0px;
+    }
+
+    .footer-menu ul li{
+        padding-bottom: 5px;
+    }
+
+    .footer-menu ul a{
+        font-size: 13px;
+    }
+        
+    .footer-contact h3{
+        padding-bottom: 5px;
+    }
+    
+    .footer-contact p{
+        color: #6c47ff;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+
+    .footer-contact .social-icons .icon a svg{
+        height: 15px;
+        width: 15px;
+    }
+    
+
+    .logo-footer{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+
+
+
+
+    .about-title h2{
+        font-size: 35px;
+    }
+    
+    .about-title p{
+       font-size: 15px;
+    }
+    
+    .line{
+        width: 250px;
+        height: 10px;
+        background-color: #39c0c8;
+    }
+
+
+    .mission-image{
+        padding: 0px 30px 0px 30px;
+    }
+
+    .mission-text{
+        margin-top: 100px;
+    }
+
+    .mission-text p, .proof-text p, .clients-text p{
+        font-size: 15px;
+    }
+
+    
+    .proof-img-after{
+        padding: 40px;
+
+    }
+
+    .select-pain-chart{
+        margin: 20px;
+        padding: 25px 50px 25px 50px;
+    }
+    
+    
+    .select-pain-dot{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .select-pain-chart{
+        margin: 20px;
+        padding: 25px 50px 25px 50px;
+    }
+    
+    
+    .select-pain-dot{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+
+    .select-pain-chart{
+        margin: 20px;
+        padding: 25px 50px 25px 50px;
+    }
+    
+    
+    .select-pain-dot{
+        width: 10px;
+        height: 10px;
+    }
+}

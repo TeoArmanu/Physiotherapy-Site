@@ -533,7 +533,7 @@ td{
     }
 
     .select-pain-chart{
-        margin: 20px;
+        margin: 20px 0;
         padding: 25px 250px 25px 250px;
     }
     
@@ -555,7 +555,7 @@ td{
 
     
     .select-pain-chart{
-        margin: 20px;
+        margin: 20px 0 ;
         padding: 25px 150px 25px 150px;
     }
     
@@ -595,7 +595,7 @@ td{
     }
 
     .select-pain-chart{
-        margin: 20px;
+        margin: 20px 0 ;
         padding: 25px 90px 25px 90px;
     }
     
@@ -759,7 +759,7 @@ td{
     }
 
     .select-pain-chart{
-        margin: 20px;
+        margin: 20px 0;
         padding: 25px 50px 25px 50px;
     }
     
@@ -773,7 +773,7 @@ td{
 @media only screen and (max-width:400px) {
 
     .select-pain-chart{
-        margin: 20px;
+        margin: 20px 0;
         padding: 25px 50px 25px 50px;
     }
     
